@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.1.5),
-    on September 06, 2024, at 11:45
+    on September 11, 2024, at 23:44
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -406,7 +406,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # set up handler to look after next chosen value etc
     stair = data.StairHandler(startVal=10.0, extraInfo=expInfo,
         stepSizes=[2,1,1,0.5], stepType='lin',
-        nReversals=0.0, nTrials=50.0, 
+        nReversals=0.0, nTrials=100.0, 
         nUp=1.0, nDown=3.0,
         minVal=1.0, maxVal=20.0,
         originPath=-1, name='stair')

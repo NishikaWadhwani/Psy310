@@ -200,7 +200,7 @@
       <Param name="loopType" updates="None" val="staircase" valType="str"/>
       <Param name="max value" updates="None" val="20" valType="num"/>
       <Param name="min value" updates="None" val="1" valType="num"/>
-      <Param name="nReps" updates="None" val="50" valType="num"/>
+      <Param name="nReps" updates="None" val="100" valType="num"/>
       <Param name="name" updates="None" val="stair" valType="code"/>
       <Param name="start value" updates="None" val="10" valType="num"/>
       <Param name="step sizes" updates="None" val="[2,1,1,0.5]" valType="list"/>
