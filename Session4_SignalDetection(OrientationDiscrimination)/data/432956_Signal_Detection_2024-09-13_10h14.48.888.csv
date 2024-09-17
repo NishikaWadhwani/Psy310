@@ -1,0 +1,22 @@
+key_resp.keys	key_resp.corr	tilt			hit	miss	fa	cr					
+down	1	-4						1					
+up	1	0			1								
+down	1	-1						1					
+up	0	2					1						
+down	0	0				1						Response Yes	Response No
+up	1	0			1						Signal Present	Hit	Miss
+up	1	0			1						Signal Absent	False Alarm	Correct Rejection
+down	1	3						1					
+down	1	1						1					
+down	1	4						1					
+				Sum	3	1	1	5					
+													
+													
+	Proportion hit	0.75		Prop hit= hit/(hit+miss)									
+	Proportion fa	0.166666667		prop fa= fa/(fa+cr)									
+													
+	d-prime	1.641911316		z(prop hit)-z(prop  fa)									
+	c	0.146465908		(-ve sign)z((prop hit)+z(prop fa))/2									
+													
+		"d prime 2 or bove is effeicient, below 2 is weak, and 3 or more is excellect performance)"											
+		"if c value is +ve it shows conservative bias, if it is -ve it shows liberal bias"											

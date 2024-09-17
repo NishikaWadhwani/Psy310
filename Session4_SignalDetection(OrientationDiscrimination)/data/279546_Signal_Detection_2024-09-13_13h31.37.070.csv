@@ -1,0 +1,109 @@
+key_resp.keys	key_resp.corr	tilt			hit	miss	fa	cr								
+down	0	0			 	1										
+down	1	-5						1					0-1	hit	no.1	cr
+up	1	0			1								0-0	miss	no. 0	fa
+down	1	-2						1								
+up	1	0			1								hit and miss	0 tilt	Choose 1 or 0	
+up	1	0			1								cr and ca	no.	choose 1 or 0	
+down	1	-3						1								
+down	1	3						1								
+down	1	1						1								
+up	1	0			1											
+down	1	-4						1								
+up	1	0			1											
+down	1	3						1								
+up	1	0			1											
+up	1	0			1											
+up	1	0			1											
+up	1	0			1											
+up	1	0			1											
+down	1	2						1								
+down	1	-4						1								
+up	1	0			1											
+down	1	-4						1								
+down	0	0				1										
+up	1	0			1											
+up	0	-2					1									
+up	0	1					1									
+up	1	0			1											
+down	1	-3						1								
+up	0	1					1									
+down	1	4						1								
+down	1	-3						1								
+down	1	2						1								
+down	1	-3						1								
+down	1	2						1								
+down	1	1						1								
+down	1	-2						1								
+down	1	2						1								
+up	1	0			1											
+up	1	0			1											
+down	1	-3						1								
+down	0	0				1										
+down	1	-4						1								
+down	1	-2						1								
+up	1	0			1											
+up	1	0			1											
+up	1	0			1											
+up	1	0			1											
+up	0	1					1									
+up	0	2					1									
+up	0	2					1									
+up	1	0			1											
+up	0	3					1									
+down	1	-4						1								
+up	1	0			1											
+up	0	-2					1									
+up	1	0			1											
+down	1	-4						1								
+up	1	0			1											
+up	1	0			1											
+up	0	-2					1									
+up	1	0			1											
+up	1	0			1											
+down	1	-3						1								
+down	1	-3						1								
+up	0	2					1									
+up	1	0			1											
+down	1	-3						1								
+down	0	0				1										
+up	1	0			1											
+down	1	-5						1								
+up	1	0			1											
+down	1	-5						1								
+up	0	1					1									
+up	0	1					1									
+up	0	2					1									
+up	0	2					1									
+down	0	0				1										
+down	1	3						1								
+up	1	0			1											
+up	1	0			1											
+up	1	0			1											
+up	1	0			1											
+down	1	-5						1								
+up	1	0			1											
+up	0	1					1									
+down	1	-4						1								
+down	1	-3						1								
+down	1	-2						1								
+up	1	0			1											
+down	1	-4						1								
+up	1	0			1											
+up	1	0			1											
+up	1	0			1											
+up	1	0			1											
+up	1	0			1											
+up	1	0			1											
+up	0	-2					1									
+down	1	4						1								
+down	1	-3						1								
+up	1	0			1											
+				Sum	42	5	16	37					Response Yes	Response No		
+					hit	miss	fa	cr				Signal Present	Hit	Miss		
+												Signal Absent	False alarm	Correct rejection		
+	Prop hit	0.893617021		hit/hit+misss												
+	Prop fa	0.301886792		fa/fa+cr									Response Yes	Response No		
+												Signal Present	42	5		
+	d-prime	1.764977327		z(prop hit)-z(prop fa)								Signal Absent	16	37		
+	c	-0.363507081														
